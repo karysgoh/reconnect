@@ -1,0 +1,55 @@
+.jobs-page h1 {
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.page-subtitle {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.status-message {
+  text-align: center;
+  color: #666;
+  margin-top: 2rem;
+}
+
+.status-message.error {
+  color: #e74c3c;
+}
+
+.job-list {
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+}
+
+.job-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.job-card h2 {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-bottom: 0.25rem;
+}
+
+.employer-name {
+  font-size: 0.95rem;
+  color: #3498db;
+  font-weight: 600;
+}
+
+.job-location {
+  font-size: 0.9rem;
+  color: #888;
+  margin: 0.5rem 0;
+}
+
+.job-description {
+  color: #555;
+  line-height: 1.5;
+}
